@@ -13,7 +13,7 @@ def solution(num):
 # 문자열 내 p와 y의 개수
 def solution(s):
     s = str.lower(s)
-    return s.count('p') == s.count('y')
+    return s.count('p') == s.count('y') 
 
 from collections import Counter
 def numPY(s):
@@ -31,7 +31,6 @@ def solution(n):
     return sum(list(map(int,str(n))))
 
 # 자연수 뒤집어 배열로 만들기
-
 def solution(n):
     return list(map(int, reversed(str(n))))
 
@@ -54,7 +53,6 @@ def solution(n):
     
 def nextSqure(n):
     sqrt = n ** (1/2)
-
     if sqrt % 1 == 0:
         return (sqrt + 1) ** 2
     return -1
@@ -83,8 +81,6 @@ def solution(seoul):
 
 # 콜라츠 추측
 def solution(num):
-    print(num)
-    
     global cnt  
     
     if cnt > 500:

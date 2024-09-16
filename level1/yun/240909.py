@@ -65,4 +65,3 @@ def alpha_string46(s):
     #함수를 완성하세요
     return s.isdigit() and len(s) in [4,6]
 
-# 행렬의 덧셈
